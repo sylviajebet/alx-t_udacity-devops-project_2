@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name $1 --template-body file://cfnetwork.yml  --parameters file://cf-network_parameters.json --region=us-east-1
